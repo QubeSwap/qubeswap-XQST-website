@@ -10,7 +10,8 @@ export const TokenomicsSection = () => {
 		  { title: "Farm Staking Rewards (10M)", value: 10, color: "#d26560" },
 		  { title: "Trading Rewards (5M)", value: 5, color: "#563a18" }
         ]} />
-        <div className="grid grid-cols-1 p-2 xs:grid-cols-2 place-items-center">
+      </div>
+      <div className="flex justify-center gap-16 pb-8 px-4 xs:flex-col xs:items-center">
           <div className="flex flex-col gap-2">
             <span className="text-xs text-neutral-300">Token Symbol</span>
 			<span className="text-lg text-white">XQST</span>
@@ -20,7 +21,6 @@ export const TokenomicsSection = () => {
 			<span className="text-lg text-white">40M</span>
           </div>
         </div>
-      </div>
     </div>
   )
 }

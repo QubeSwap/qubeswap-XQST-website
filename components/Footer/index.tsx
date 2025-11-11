@@ -19,6 +19,7 @@ export const Footer = () => {
         </CustomLink>
         <hr className='w-10 bg-white' />
       </div>
+      <span className="text-sm text-center text-neutral-400 mt-5">© 2025 Qubeswap by Mabble Protocol. All rights reserved.</span>
     </div>
   )
 }
